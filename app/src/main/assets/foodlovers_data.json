@@ -1,0 +1,59 @@
+[
+  {
+    "imageFile": "foodlovers01",
+    "foodloversName": "Crazy Sushi",
+    "imagePin": "pin01",
+    "caption": "522, ถนนพหลโยธิน สามเสนใน กรุงเทพมหานคร",
+    "price": "500 Baht",
+    "imageStart": "start01"
+  },
+  {
+    "imageFile": "foodlovers02",
+    "foodloversName": "Koko Japanese Restaurant",
+    "imagePin": "pin01",
+    "caption": "54 Harindhorn Tower ซอยสาทร 4 กรุงเทพมหานคร",
+    "price": "1,000 Baht",
+    "imageStart": "start02"
+  },
+  {
+    "imageFile": "foodlovers03",
+    "foodloversName": "UMENOHANA (อุเมะโนะฮานะ)",
+    "imagePin": "pin01",
+    "caption": "85 ซอยสุขุมวิท 49/4 กรุงเทพมหานคร",
+    "price": "1,100 Baht",
+    "imageStart": "start03"
+  },
+  {
+    "imageFile": "foodlovers04",
+    "foodloversName": "Kosirae ",
+    "imagePin": "pin01",
+    "caption": "58/1 ซอยสุขุมวิท 55 คลองตันเหนือ กรุงเทพมหานคร",
+    "price": "251 Baht",
+    "imageStart": "start04"
+  },
+  {
+    "imageFile": "foodlovers05",
+    "foodloversName": "Sushi Masa",
+    "imagePin": "pin01",
+    "caption": "359/1 ซอยพญานาค ถนนเพชรบุรี กรุงเทพมหานคร ",
+    "price": "501 Baht",
+    "imageStart": "start05"
+  },
+  {
+    "imageFile": "foodlovers06",
+    "foodloversName": "Little Tree Garden",
+    "imagePin": "pin01",
+    "caption": "43 หมู่ 5 ต.บ้านใหม่ อ.สามพราน จ.นครปฐม",
+    "price": "300 Baht",
+    "imageStart": "start06"
+  },
+  {
+    "imageFile": "foodlovers07",
+    "foodloversName": "Pata Plantation",
+    "imagePin": "pin01",
+    "caption": "70/36, ซอยติวานนท์-ปากเกร็ด 56 ต.บ้านใหม่ อ.ปากเกร็ด, จ.นนทบุรี ",
+    "price": "600 Baht",
+    "imageStart": "start07"
+  }
+
+]
