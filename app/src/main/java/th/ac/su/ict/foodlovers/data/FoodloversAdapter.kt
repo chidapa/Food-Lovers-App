@@ -13,8 +13,6 @@ class FoodloversAdapter(private val context: Context,
 
     private val inflater:LayoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
-//    private val inflater:LayoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as  LayoutInflater
-
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
 
         val rowView = inflater.inflate(R.layout.list_item_foodlovers,null)
@@ -22,6 +20,15 @@ class FoodloversAdapter(private val context: Context,
         rowView.tvTitle.text = dataSource[position].foodloversName
         rowView.tvSubtitle.text = dataSource[position].caption
         rowView.tvDetail.text = dataSource[position].price
+
+        val res = context.resources
+        val drawableIdpin: Int = res.getIdentifier(dataSource[position].imagePin,"drawable",context.packageName)
+        val drawableId: Int = res.getIdentifier(dataSource[position].imageFile,"drawable",context.packageName)
+        val drawableIdsub: Int = res.getIdentifier(dataSource[position].imageStart,"drawable",context.packageName)
+
+        rowView.imgThumbnail.setImageResource(drawableId)
+        rowView.imgStart.setImageResource(drawableIdsub)
+        rowView.imgPin.setImageResource(drawableIdpin)
 
         return rowView
     }
