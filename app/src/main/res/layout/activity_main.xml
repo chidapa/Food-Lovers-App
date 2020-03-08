@@ -8,7 +8,35 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/bg"/>
+
+
+        <TextView
+            android:id="@+id/tvBgTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="Food Lover"
+            android:layout_margin="50dp"
+           />
+    </RelativeLayout>
+
     <ListView
+
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

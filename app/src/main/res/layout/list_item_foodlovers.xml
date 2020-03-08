@@ -5,13 +5,7 @@
     android:layout_height="wrap_content">
 
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imgMain"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="305dp"-->
-<!--        android:layout_alignParentTop="true"-->
-<!--        android:layout_marginTop="0dp"-->
-<!--        android:background="@drawable/foodlovers01" />-->
+
 
     <ImageView
         android:id="@+id/imgThumbnail"
@@ -22,6 +16,7 @@
         android:layout_marginLeft="6dp"
         android:scaleType="centerInside"
         tools:src="@mipmap/ic_launcher"
+
         />
 
 
@@ -35,7 +30,8 @@
         android:layout_toRightOf="@id/imgThumbnail"
         android:textSize="16sp"
         android:textColor="#1A10BC"
-        tools:text="Title" />
+        tools:text="Title"
+        />
 
 
     <ImageView
@@ -82,14 +78,15 @@
 
     <ImageView
         android:id="@+id/imgStart"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
         android:layout_below="@id/tvSubtitle"
-        android:layout_marginTop="20dp"
-       android:layout_marginRight="10dp"
+        android:layout_marginTop="18dp"
         android:scaleType="centerInside"
         tools:src="@mipmap/ic_launcher"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignRight="@id/tvDetail"
+        android:layout_alignParentRight="true"
+        android:gravity="right" />
 
 
 </RelativeLayout>

@@ -15,6 +15,7 @@ class DetailActivity : AppCompatActivity() {
         val caption = intent.getStringExtra("caption")
         val description = intent.getStringExtra("description")
         val imageFile = intent.getStringExtra("imageFile")
+        val imageStart = intent.getStringExtra("imageStart")
 
         tvMain.setText(title)
         tvCaption.setText(caption)
@@ -24,8 +25,10 @@ class DetailActivity : AppCompatActivity() {
         val res = resources
         val drawableId:Int =
             res.getIdentifier(imageFile,"drawable",packageName)
+        val drawableIdsub: Int = res.getIdentifier(imageStart,"drawable",packageName)
 
         imgView.setImageResource(drawableId)
+        imgRate.setImageResource(drawableIdsub)
 
 
 

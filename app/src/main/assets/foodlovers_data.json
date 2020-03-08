@@ -5,7 +5,8 @@
     "imagePin": "pin01",
     "caption": "522, ถนนพหลโยธิน สามเสนใน กทม",
     "price": "500 Baht",
-    "imageStart": "start01"
+    "imageStart": "start01",
+    "description": "สำหรับคนที่ชื่นชอบอาหารญี่ปุ่นแล้ว เชื่อว่าต้องคุ้นเคยกับคอร์สอาหารแบบโอมากาเสะ (Omakase)"
   },
   {
     "imageFile": "foodlovers02",
@@ -13,7 +14,8 @@
     "imagePin": "pin01",
     "caption": "54 Harindhorn Tower ซอยสาทร 4 กทม",
     "price": "1,000 Baht",
-    "imageStart": "start02"
+    "imageStart": "start02",
+    "description": "20 คอร์ส ราคาไม่แพง คุณภาพถือว่าสมราคาค่ะ ซูชิคำค่อนข้างเล็ก เชฟหลายคำมาปั้นให้"
   },
   {
     "imageFile": "foodlovers03",
@@ -21,7 +23,8 @@
     "imagePin": "pin01",
     "caption": "85 ซอยสุขุมวิท 49/4 กทม",
     "price": "1,100 Baht",
-    "imageStart": "start03"
+    "imageStart": "start03",
+    "description": "Premium Omakase Kaiseki สุดอลังการ จากร้านสาขาของ UMENOHANA อร่อยฟินเหมือนได้ไปกินที่ญี่ปุ่น"
   },
   {
     "imageFile": "foodlovers04",
@@ -29,7 +32,8 @@
     "imagePin": "pin01",
     "caption": "58/1 ซอยสุขุมวิท 55 คลองตันเหนือ กทม",
     "price": "251 Baht",
-    "imageStart": "start04"
+    "imageStart": "start04",
+    "description": "เมนูนี้คือเลิศมาก  อร่อยน้ำตาจิไหล นึกไม่ถึงเลยว่าข้าวญี่ปุ่นนำมาใส่ครีมนมใส่ชีสทำเป็น Risotto "
   },
   {
     "imageFile": "foodlovers05",
@@ -37,7 +41,8 @@
     "imagePin": "pin01",
     "caption": "359/1 ซอยพญานาค ถนนเพชรบุรี กทม ",
     "price": "501 Baht",
-    "imageStart": "start05"
+    "imageStart": "start05",
+    "description": "อังกิโมะหรือตับของปลาอังโค (Monkfish) ที่มีความเนียนละเอียดละลายในปาก"
   },
   {
     "imageFile": "foodlovers06",
@@ -45,7 +50,8 @@
     "imagePin": "pin01",
     "caption": "43 หมู่ 5 บ้านใหม่ อ.สามพราน จ.นครปฐม",
     "price": "300 Baht",
-    "imageStart": "start06"
+    "imageStart": "start06",
+    "description": "ปูหิมะที่เป็นปูไข่ ขูดเนื้ออกคลุกกับไข่ปูและมันปู เสิร์ฟใส่กระดองปู ท็อปด้วยเนื้อขาปูชิ้นยาวๆหลายชิ้น "
   },
   {
     "imageFile": "foodlovers07",
@@ -53,7 +59,8 @@
     "imagePin": "pin01",
     "caption": "70/36 บ้านใหม่ อ.ปากเกร็ด, จ.นนทบุรี ",
     "price": "600 Baht",
-    "imageStart": "start07"
+    "imageStart": "start07",
+    "description": "Nigiri Sushi ชิ้นนี้ห่อสาหร่ายแผ่นโตมาด้านนอก ภายในมีข้าวนิดเดียว โปะเนื้อส่วนท้องของปลา Maguro"
   }
 
 ]

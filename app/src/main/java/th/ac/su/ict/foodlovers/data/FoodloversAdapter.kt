@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import kotlinx.android.synthetic.main.activity_detail.view.*
 import kotlinx.android.synthetic.main.list_item_foodlovers.view.*
+import kotlinx.android.synthetic.main.list_item_foodlovers.view.imgPin
 import th.ac.su.ict.foodlovers.R
 
 class FoodloversAdapter(private val context: Context,
@@ -20,6 +22,7 @@ class FoodloversAdapter(private val context: Context,
         rowView.tvTitle.text = dataSource[position].foodloversName
         rowView.tvSubtitle.text = dataSource[position].caption
         rowView.tvDetail.text = dataSource[position].price
+
 
         val res = context.resources
         val drawableIdpin: Int = res.getIdentifier(dataSource[position].imagePin,"drawable",context.packageName)

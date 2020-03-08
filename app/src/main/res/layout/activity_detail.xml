@@ -21,29 +21,28 @@
         android:id="@+id/tvMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:layout_marginLeft="16dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         tools:text="title"
         android:textColor="#ffffff"
         android:layout_alignBottom="@id/imgView"/>
 
     <ImageView
         android:id="@+id/imgPin"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="25dp"
         android:src="@drawable/pin01"
         android:alpha="0.4"
-        android:layout_alignBottom="@id/imgView"/>
+        android:layout_alignBottom="@id/imgView"
+        />
     <ImageView
-        android:id="@+id/imgStar"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="5dp"
-        android:src="@drawable/start01"
+        android:id="@+id/imgRate"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        tools:src="@drawable/start01"
         android:layout_alignBottom="@id/imgView"
         android:layout_alignRight="@id/imgView"/>
 
@@ -51,8 +50,9 @@
         android:id="@+id/tvCaption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:layout_marginLeft="45dp"
+        android:layout_marginBottom="20dp"
         tools:text="caption"
         android:textColor="#ffffff"
         android:layout_alignBottom="@id/imgView"
@@ -63,12 +63,15 @@
         android:id="@+id/tvDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_marginLeft="45dp"
-        tools:text="Description"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        tools:text="description"
         android:textColor="#000000"
         android:layout_below="@id/tvCaption"
-        android:maxLines="15"
+        android:maxLines="3"
+        android:alpha="0.5"
         />
 
 
