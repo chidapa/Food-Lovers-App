@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/foodlovers01" />
+
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="20dp"
+        tools:text="title"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/imgView"/>
+
+    <ImageView
+        android:id="@+id/imgPin"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/pin01"
+        android:alpha="0.4"
+        android:layout_alignBottom="@id/imgView"/>
+    <ImageView
+        android:id="@+id/imgStar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/start01"
+        android:layout_alignBottom="@id/imgView"
+        android:layout_alignRight="@id/imgView"/>
+
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="45dp"
+        tools:text="caption"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/imgView"
+        />
+
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="45dp"
+        tools:text="Description"
+        android:textColor="#000000"
+        android:layout_below="@id/tvCaption"
+        android:maxLines="15"
+        />
+
+
+
+</RelativeLayout>

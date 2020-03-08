@@ -1,5 +1,6 @@
 package th.ac.su.ict.foodlovers
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -36,5 +37,18 @@ class MainActivity : AppCompatActivity() {
         val adapter = FoodloversAdapter(this@MainActivity,itemList)
 
         listView.adapter = adapter
+
+        listView.setOnItemClickListener { parent, view, position, id ->
+
+            var intent = Intent(this@MainActivity,DetailActivity::class.java)
+
+            intent.putExtra("title",itemList[position].foodloversName)
+            intent.putExtra("caption",itemList[position].caption)
+            intent.putExtra("imageFile",itemList[position].imageFile)
+
+            startActivity(intent)
+        }
+
+
     }
 }
