@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:layout_marginLeft="16dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="50dp"
         tools:text="title"
         android:textColor="#ffffff"
         android:layout_alignBottom="@id/imgView"/>
@@ -33,18 +33,22 @@
         android:layout_width="15dp"
         android:layout_height="15dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="30dp"
         android:src="@drawable/pin01"
-        android:alpha="0.4"
         android:layout_alignBottom="@id/imgView"
         />
     <ImageView
         android:id="@+id/imgRate"
         android:layout_width="wrap_content"
-        android:layout_height="15dp"
+        android:layout_height="wrap_content"
         tools:src="@drawable/start01"
+        android:layout_marginBottom="5dp"
         android:layout_alignBottom="@id/imgView"
-        android:layout_alignRight="@id/imgView"/>
+        android:layout_alignRight="@id/imgView"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true"
+        android:maxHeight="20dp"
+        android:layout_marginRight="10dp"/>
 
     <TextView
         android:id="@+id/tvCaption"
@@ -52,7 +56,7 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:layout_marginLeft="45dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="30dp"
         tools:text="caption"
         android:textColor="#ffffff"
         android:layout_alignBottom="@id/imgView"
